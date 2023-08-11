@@ -6,10 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+	<style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+ 
 </head>
 <body>
     <!-- add table here -->
+	<table border="1">
+		<thead>
+			<tr>
+			<td>Name</td>
+			<td>kills</td>
+			<td>saved</td>
+			<td>deaths</td>
+			<td>win</td>
+			</tr>
+		</thead>
 
+		<tbody>
+			<tr>
+				<td>hackerman</td>
+				<td>10</td>
+				<td>0</td>
+				<td>1</td>
+				<td>40</td> 
+			</tr>
+			<tr>
+				<td>marvel</td>
+				<td>11</td>
+				<td>16</td>
+				<td>18</td>
+				<td>60</td> 
+			</tr>
+			<tr>
+				<td>Captain</td>
+				<td>41</td>
+				<td>5</td>
+				<td>9</td>
+				<td>80</td> 
+			</tr>
+		</tbody>
+		
+	</table>
         
 </body>
 </html>
